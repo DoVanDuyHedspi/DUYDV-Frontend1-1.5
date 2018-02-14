@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+article {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+section {
+	width: 100%;
+}
+#company,#business,#headline,#logo {
+	width: 100%;
+	padding-left:45%;
+}
+#business,#headline,#logo {
+	padding-right: 9%;
+}
+section#company {
+	height: 27.3vw;
+	background-color: rgb(255,255,255);
+	padding-top: 10.25vw;
+}
+#company div {
+	/*display: inline-block;*/
+	float: right;
+	height: 9vw;
+}
+
+#company div p {
+	color: #f5d445;
+	font-family: montserrat;
+	font-size: 2.7vw;
+	text-transform: uppercase;
+	text-align: right;	
+	line-height: 4vw;
+	font-weight: bold;
+	/*margin-top: 20px;	*/
+}
+#company div#box {
+	width: 18%;
+	background-color: #f8d749;
+	margin-left: 20px;
+}
+section#business {
+	height: 44.7vw;
+	background-color: #24242a;
+	text-align: right;
+	position: relative;
+	padding-top: 6.6vw;
+	/*margin-top: 90px;*/
+}
+#business hr {
+	width: 35%;
+	height: 2vw;
+	background-color: #c1bab5;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#business .p1 {
+	font-family: montserrat;
+	font-size: 3.6vw;
+	color: white;
+
+}
+#business .p2 {
+	font-family: montserrat;
+	font-size: 6.6vw;
+	color: #f5d445;
+}
+ .p3 {
+	font-family: montserrat;
+	font-size: 1.4vw;
+	color: white;
+	margin-top: 1.8vw;
+
+}
+.p4 {
+	font-family: TimesNewRoman, "Times New Roman";
+	font-size: 6.6vw;
+	color: white;
+	clear: both;
+}
+section#headline {
+	height: 62vw;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	text-align: right;
+	padding-top: 3vw;
+	background-color: rgba(81,179,227,0.5);
+	background-blend-mode: lighten;
+
+}
+#headline>div {
+	width: 3%;
+	height: 5.4vw;
+	background-color: white;
+	float: right;
+	margin: 3vw 0;
+}
+.black {
+	color: black;
+}
+section#logo {
+	height: 18vw;
+	background-color: #406375;
+	padding-top: 6vw;
+}
+
+#logo span img {
+	width: 6vw;
+	/*vw vs %*/
+	vertical-align: middle;
+	margin-right: 6%;
+}
+#logo>span:first-child img{
+	width: 11vw;
+	/*display: none;*/
+}
+#panel {
+	width: 35.5%;
+	height: 152vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#panel-text {
+	width: 80%;
+	margin-left: 20%;
+	height: 70%;
+	color: white;
+	background-color: rgba(245,207,0,0.8);
+}
+#panel-text #company-panel {
+	height: 27.3vw;
+	padding: 7vw 15%;
+}
+#panel-text #company-panel p:first-child {
+	font-size: 7.5vw;
+	font-family: montserrat;
+	font-weight: bold;
+}
+#panel-text #company-panel p:last-child {
+	font-size: 2vw;
+	font-family: montserrat;
+	font-weight: lighter;
+}
+#panel-text #business-panel {
+	height: 44.7vw;
+	padding: 20vw 15%;
+}
+#business-panel hr {
+	width: 35%;
+	height: 2vw;
+	margin-bottom: 3vw;
+	background-color: white;
+}
+#business-panel p {
+	font-size: 1.4vw;
+	font-family: montserrat;
+}
+#panel-text #headline-panel {
+	padding: 12vw 15%;
+}
+#headline-panel hr {
+	width: 35%;
+	height: 2vw;
+	margin-bottom: 3vw;
+	background-color: white;
+}
+#headline-panel p {
+	font-size: 2.5vw;
+	font-family: TimesNewRoman, "Times New Roman";
+}
+#panel #contact {
+	height: 30%;
+	width: 100%;
+	padding-left: 20%;
+	padding-top: 10vw;
+	background-color: #24242a;
+	color: white;
+}
+#contact p {
+	font-size: 1.5vw;
+	font-family: montserrat;
+	line-height: 8vw;
+}
+#contact p:last-child {
+	color: #d9b807;
+	font-size: 1.7vw;
+}
+#contact p span {
+	margin-right: 3vw;
+}
+#contact p span img {
+	width: 3vw;
+}
