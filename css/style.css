@@ -3,6 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@font-face {
+    font-family:montserrat-b;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family:montserrat-sb;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family:montserrat-l;
+    src: url(fonts/Montserrat-Light.ttf);
+}
 article {
 	width: 100%;
 	margin: auto;
@@ -31,11 +43,11 @@ section#company {
 
 #company div p {
 	color: #f5d445;
-	font-family: montserrat;
+	font-family: montserrat-b;
 	font-size: 2.7vw;
 	text-transform: uppercase;
 	text-align: right;	
-	line-height: 4vw;
+	line-height: 4.2vw;
 	font-weight: bold;
 	/*margin-top: 20px;	*/
 }
@@ -53,7 +65,7 @@ section#business {
 	/*margin-top: 90px;*/
 }
 #business hr {
-	width: 35%;
+	width: 33%;
 	height: 2vw;
 	background-color: #c1bab5;
 	position: absolute;
@@ -67,7 +79,7 @@ section#business {
 
 }
 #business .p2 {
-	font-family: montserrat;
+	font-family: montserrat-b;
 	font-size: 6.6vw;
 	color: #f5d445;
 }
@@ -81,7 +93,7 @@ section#business {
 
 }
 .p4 {
-	font-family: montserrat;
+	font-family: montserrat-b;
 	font-size: 6.6vw;
 	color: white;
 	clear: both;
@@ -92,16 +104,27 @@ section#headline {
 	background-size: cover;
 	text-align: right;
 	padding-top: 5vw;
-	background-color: rgba(81,179,227,0.7);
-	background-blend-mode: lighten;
+	/*background-blend-mode: soft-light;*/
+	z-index: 2;
+	position: relative;
 
 }
-#headline>div {
+
+#headline #rectangle {
 	width: 3%;
 	height: 5.4vw;
 	background-color: white;
 	float: right;
 	margin: 3vw 0;
+}
+#layout {
+	width: 64.5% ;
+	height: 62vw;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(81,179,227,0.5);
+	z-index: -1;
 }
 .black {
 	color: black;
@@ -134,6 +157,7 @@ section#logo {
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 3;
 }
 #panel-text {
 	width: 80%;
@@ -148,12 +172,11 @@ section#logo {
 }
 #panel-text #company-panel p:first-child {
 	font-size: 7.5vw;
-	font-family: montserrat;
-	font-weight: bold;
+	font-family: montserrat-b;
 }
 #panel-text #company-panel p:last-child {
-	font-size: 2vw;
-	font-family: montserrat;
+	font-size: 2.2vw;
+	font-family: montserrat-l;
 	font-weight: lighter;
 }
 #panel-text #business-panel {
@@ -181,7 +204,7 @@ section#logo {
 }
 #headline-panel p {
 	font-size: 2.5vw;
-	font-family: montserrat;
+	font-family: montserrat-sb;
 }
 #panel #contact {
 	height: 30%;
@@ -224,4 +247,5 @@ section#logo {
 .fix {
 	line-height: 3.7vw;
 }
+
 
