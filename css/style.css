@@ -98,6 +98,12 @@ section#business {
 	color: white;
 	clear: both;
 }
+.p5 {
+	font-family: montserrat-b;
+}
+hr {
+	border:0;
+}
 section#headline {
 	height: 62vw;
 	background-image: url('../images/background.jpg');
@@ -205,6 +211,7 @@ section#logo {
 #headline-panel p {
 	font-size: 2.5vw;
 	font-family: montserrat-sb;
+
 }
 #panel #contact {
 	height: 30%;
@@ -218,7 +225,8 @@ section#logo {
 #contact p {
 	color: #d9b807;
 	font-size: 1.7vw;
-	font-family: montserrat;
+	font-family: montserrat-b;
+	margin-top: 6vw;
 }
 .row-contact {
 	clear: both;
@@ -241,7 +249,7 @@ section#logo {
 	float: left;
 	/*height: 2.7vw;*/
 	vertical-align: middle;
-	font-size: 1.5vw;
+	font-size: 1.7vw;
 	font-family: montserrat;
 }
 .fix {
